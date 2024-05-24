@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    width: 100%;
+}
+.nav-logo img{
+   width: 20vh;
+}
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#f3ebeb;
+    padding: 5px;
+}
+.main-nav{
+    padding: 18px 50px;
+}
+.nav-item>ul{
+    display: flex;
+    padding: 7px;
+    justify-content: flex-end;
+
+}
+.nav-item li{
+    padding:0 20px;
+    list-style: none;
+    transition: 0.5s;
+}
+.nav-item li:hover{
+    background-color:rgba(4, 255, 255, 0.604);
+    border-radius: 0px 100px 0px 100px;
+    color:#fff;
+}
+.nav-item a{
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.nav-item li:hover a{
+    color: #fff;
+}
+.nav-item input[type=search]{
+    padding: 10px;
+    border-radius: 10px 10px ;
+    border: none;
+    outline: none;
+}
+/* hero section start  */
+.hero-sec{
+    background:url(imges/gavi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+}
+.hero-title{
+    margin: auto;
+    text-align: center;
+    padding: 100px 0;
+    color:rgb(4, 255, 255);
+}
+.hero-sec h2{
+    font-size: 100px;
+   letter-spacing: 10px;
+}
+.hero-sec p{
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+.hero-title button{
+    margin: 50px 0px;
+    padding: 10px 25px;
+    font-size: 35px;
+   background-color:rgba(4, 255, 255, 0.698);
+   color: #fff;
+   border-radius: 0px 100px 0px 100px;
+    border: none;
+    transition: 0.5s;
+
+}
+.hero-title button:hover{
+    background-color: rgb(4, 255, 255);
+    border-radius: 0px 0px 0px 0px;
+}
+footer p{
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+}

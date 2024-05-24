@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+}
+img {
+  max-width: 100%;
+}
+/* .field{
+    background: url('images/fild.jpg');
+} */
+.filder {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: auto;
+  position: relative;
+}
+.ball {
+  position: absolute;
+  height: 26px;
+  width: 26px;
+  bottom: 8%;
+  left: 65%;
+  transition: transform 0.8s ease-in-out 0.2s;
+}
+.bateing {
+  position: relative;
+}
+.bate {
+  rotate: 56deg;
+  height: 10%;
+  width: 23%;
+  position: absolute;
+  top: 51%;
+  left: 44%;
+  transition: transform 0.1s;
+}
+.field:hover .bate {
+  transform: rotate(-80deg);
+}
+.field:hover .ball {
+  transform: translate(900px, -300px);
+}

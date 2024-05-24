@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registation form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section class="form-structure">
+            <h2>Registation form</h2>
+            <form action="#">
+                <label for="name">Full Name <br>
+                    <input type="text" id="name" placeholder="Enter full name"><br>
+                </label>
+                <label for="email">Email addres <br>
+                    <input type="email" name="email" id="email" placeholder="Enter email addres"><br>
+                </label>
+               <div class="march">
+                <label for="mobile">Mobile number
+                    <input type="tel" name="mobile" id="mobile" placeholder="Enter mobile number">
+                </label>
+                <label for="birth-date">Birth-date 
+                    <input type="date" id="birth-date"><br>
+                </label><br>
+               </div>
+                <fieldset>
+                    <legend>
+                        Select your Gender
+                    </legend>
+                    <label for="male">
+                        <input type="radio" name="Gender" id="male">
+                        Male
+                    </label>
+                    <label for="Female">
+                        <input type="radio" name="Gender" id="Female">
+                        Female
+                    </label>
+                    <label for="others">
+                        <input type="radio" name="Gender" id="others">
+                        Prefer not to say
+                    </label>
+                </fieldset>
+                <label for="addres">
+                   <input type="addres" name="addres" id="addres" placeholder="addres">
+
+                   <select name="addres" id="addres">
+                    <option value="country">country</option>
+                    <option value="country">Bangladesh</option>
+                    <option value="country">india</option>
+                    <option value="country">pakistan</option>
+                    <option value="country">USA</option>
+                    <option value="country">Australia</option>
+                    <option value="country">Finlan</option>
+                    <option value="country">Chin</option>
+                   </select>
+                </label>
+                
+                <input type="postal"placeholder="Enter Postal code"><br>
+                <input type="reset">
+                <input type="submit">
+            </form>
+           
+        </section>
+    </main>
+    <footer>
+        <p><small>&copy; All right reserved by <a href="#">mahedi</a></small></p>
+    </footer>
+    
+</body>
+</html>

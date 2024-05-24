@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-structure{
+    width: 50%;
+    padding: 20px;
+    margin: 100px auto;
+    border: 1px solid red;
+    
+}
+.form-structure h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-structure input{
+    padding: 10px;
+    margin: 10px 0px;
+}
+select{
+    padding: 10px;
+    margin-right: 19%;
+    margin-left: -5px;
+    padding-right: 40%;
+}
+
+.form-structure input[type=text],[type=email],[type=addres]{
+    width: 100%;
+}
+.form-structure input[type=submit],[type=reset]{
+    margin: 50px 0px;
+    padding: 10px 15px;
+    font-size: 25px;
+   background-color:rgba(7, 243, 243, 0.698);
+   color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.form-structure input[type=submit],[type=reset]:hover{
+    background-color: rgb(4, 255, 255);
+}
+input[type=radio]{
+    margin-left: 5%;
+    
+}
+fieldset{
+    padding: 10px;
+}
+input[type="reset"] {
+    margin-right: 65%;
+}
+

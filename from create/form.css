@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-structure{
+    width: 50%;
+    padding: 20px;
+    margin: 200px auto;
+    border: 1px solid red;
+    
+}
+.form-structure h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-structure input{
+    padding: 10px;
+    margin: 10px 0px;
+}
+select{
+    padding: 10px;
+    margin-right: 19%;
+    margin-left: -5px;
+    padding-right: 40%;
+}
+
+.form-structure input[type=text],[type=email],[type=addres]{
+    width: 100%;
+}
+.form-structure input[type=date],[type=tel]{
+    
+
+}
+input[type=radio]{
+    margin-left: 5%;
+    
+}
+fieldset{
+    padding: 10px;
+}
+

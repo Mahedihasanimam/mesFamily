@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>grid tamlate layout</title>
+    <style>
+      div {
+        background-color: bisque;
+        border: 1px solid tomato;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 5px;
+      }
+      .header {
+        grid-area: header;
+      }
+      .navigation {
+        grid-area: navigation;
+      }
+      .main {
+        grid-area: main;
+      }
+
+      .sidebar {
+        grid-area: sidebar;
+      }
+      .advertice {
+        grid-area: advertice;
+      }
+      .footer{
+        grid-area: footer;
+      }
+      .container {
+        display: grid;
+        grid-template-areas: 
+        "header     header       header         header"
+        "navigation main         main           sidebar"
+        "navigation main         main           advertice"
+        "footer     footer        footer        footer"
+        ;
+      }
+    </style>
+  </head>
+  <body class="container">
+    <header>
+      <div class="header">
+        <h1>the header</h1>
+      </div>
+    </header>
+    <main>
+      <div class="navigation">
+        <ul>
+            <li><a href="#">nav-1</a></li>
+            <li><a href="#">nav-2</a></li>
+            <li><a href="#">nav-3</a></li>
+        </ul>
+        
+        
+        
+      </div>
+      <div class="main-">
+        <h1>
+          Main artical area
+        </h1>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
+            deleniti nam ea recusandae ipsa aperiam porro! Animi repellat
+            sapiente sed adipisci cum illum eaque blanditiis, tempore fugiat
+            amet? Impedit, ipsam.
+          </p>
+      </div>
+      <div class="sidebar">
+        <h1>sidebar</h1>
+      </div>
+      <div class="advertice">
+        <h1>adverticement</h1>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <h1>the footer</h1>
+      </div>
+    </footer>
+  </body>
+</html>
